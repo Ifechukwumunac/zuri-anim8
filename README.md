@@ -241,7 +241,7 @@ You can’t use animations on inline elements, it might work on some browsers bu
 Animations can greatly improve an interface's UX, but it's important to follow some guidelines to not overdo it and deteriorate the user experience on your web-things. Following the following rules should provide a good start.
 You should avoid animating an element just for the sake of it.
 Don't animate large elements
-Animating the '<html/>' or '<body/>' tags is possible, but you should avoid it
+Animating the '<html>' or '<body>' tags is possible, but you should avoid it
 You should avoid endless animations. It will just distract your users and might annoy a good slice of them
 
 
