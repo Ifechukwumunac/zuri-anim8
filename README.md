@@ -37,7 +37,7 @@ Best Practices
 
 # INTRODUCTION
 	
-WHY  “Anim8”
+## WHY  “Anim8”
 	With anim8 you simply have the best at your fingertips with just a few words added to your class list - perfect for beginners, and those who simply want to do simple animations at break record timings. To name a few more:
 Anim8 can be used as a cross-browser animation library in your online projects. Excellent for leading hints, home pages, sliders, and emphasis. They are compact files that function on desktops and can be resized without losing quality.
 One of the many methods to utilize Anim8 is to copy and paste the effect into your own CSS or to reference the stylesheet. Then, simply add the effect's class name to the element you want it to be applied to.
@@ -47,34 +47,23 @@ Exposes animation elements and parameters to use as targeting elements to add in
  Read on to find out more.
 
 
-BEFORE YOU CONTINUE
-	Stuff you need to know…
-
-HOW THIS DOCUMENTATION IS ARRANGED
-	If you are new to this and want to get up and running in say 10min or so check the tutorials.
-If you are interested in finding more information, especially about the animations we provide, our technical reference serves your purpose.
-If you feel the defaults aren’t your style and you want to change them do check the how-to guides.
-Lastly, if you’re curious and want to know how it all works the nuts and bolts and everything in between do check How it all works.
-! Important - In all code snippets shown anything you see in between <...> is variable, just so you know.
-And now another important thing…
-
 # THE ANIM8 CASE
-	Since our purpose is to better the developer's life we have considered a case, how do we know which class belongs to which library (eg. bootstrap) assuming you want to use some other library so we use a special case  _className .
+Since our purpose is to better the developer's life we have considered a case, how do we know which class belongs to which library (eg. bootstrap) assuming you want to use some other library so we use a special case  _className .
 
 Now to the meat…
 
 # TUTORIALS 
 
-INSTALLATION AND GETTING STARTED 
+## INSTALLATION AND GETTING STARTED 
 To access the library, please sign in but if this is your first time using the library or don’t have an account then go ahead and create a new account by signing up
 To install, go to our website and click on download and then put it in your project folder. Then how do you link it?
 
-IN THE HTML
+## IN THE HTML
 ```html
 <link rel="stylesheet" href="<pathToWhereYouStoredIt>/anim8.css" />
 ```
 
-OR IN THE CSS
+### OR IN THE CSS
 
 Using a string:
 ``` css
@@ -89,7 +78,7 @@ Or a URL:
 
 
 You could also install using npm
-Install with npm:
+### Install with npm:
 
 ``` 
 $ npm install zuri-anim8
@@ -115,21 +104,21 @@ Include the file anim8.css
 
 There are two basic ways to use Anim8 and these are;
 
-…BY ADDING CLASSES TO THE HTML TAGS
+### …BY ADDING CLASSES TO THE HTML TAGS
 ```html
 class = " _moveUp"
 ```
 
 For a list of more classes do check our technical reference.
 
-…ADDING CLASSES WITH JAVASCRIPT
+### …ADDING CLASSES WITH JAVASCRIPT
 ```javascript
 <whatYouWantToAnim8>.classList.add("_moveUp");
 ```
 
 There’s also another way of utilizing your animations;
 
-…USING KEYFRAMES
+### …USING KEYFRAMES
 A keyframes animation is the default animation type and it can be used to define the behaviour of the animation from the start to the end using:
  
  ```css
@@ -146,11 +135,11 @@ This provides a flexible way to use Anim8.css with your current projects without
 
 
 
-YOU WANT MORE … YOU HAVE MORE
+## YOU WANT MORE … YOU HAVE MORE
 
 You can also change some of the settings that come with the specific animations by using the utility functions and luckily anim8 comes with three;
 
-SPEED 
+### SPEED 
 To change the speed of animation you can add any of this to the class list, don't forget to put your space in between!
 
 
@@ -167,7 +156,7 @@ How fast they go
 
 
 
-DELAY
+### DELAY
 	What if you wanted to make the animation wait a bit before it starts - anim8 comes with some interesting stuff.
 
 
@@ -183,7 +172,7 @@ Delay times
     -5 seconds
 
 
-REPEAT
+### REPEAT
 	Or if you're feeling ‘geeky’  you can call it the iteration count. Now, what does anim8 come with?
 
 classes
@@ -202,8 +191,8 @@ Now thats that but then, we know there can be no standards for these utility fun
 
 
 
-HOW TO GUIDES
-	CHANGING DEFAULTS
+## HOW TO GUIDES
+### CHANGING DEFAULTS
 You could simply go to the library and change stuff for example;
 
 This is how it looks in the library…
@@ -229,10 +218,10 @@ You can always come back and re-download. We encourage you to keep breaking it, 
 
 
 # TECHNICAL REFERENCE
-OUR COMPLETE LIST OF ANIMATION CLASSES
+### OUR COMPLETE LIST OF ANIMATION CLASSES
 You’d know what they do from their names, neat right.
 
-BASIC ANIMATIONS
+### BASIC ANIMATIONS
 -_moveDown
 -_moveRight
 -_moveLeft
@@ -243,7 +232,7 @@ BASIC ANIMATIONS
 -_moveDown
 
 
-ATTENTION SEEKERS
+### ATTENTION SEEKERS
 -_popOut
 -_tada
 -_changeBgColor
@@ -255,7 +244,7 @@ hope to add more soon
 
 
 
-HOW IT ALL WORKS
+# HOW IT ALL WORKS
 We simply use the classes and add animations to these classes in the css code which makes up the library (simple CSS animations which are a lot easier than javascript animations so it's easier for you to edit). You could download the library to see the codes.
 
 # IMPORTANT TO NOTE
