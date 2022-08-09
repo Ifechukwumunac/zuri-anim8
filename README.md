@@ -2,24 +2,24 @@
 Anim8 is an open-source library filled with premade cross-browser CSS animations ready to take your project to the next level. Anim8 allows users to import or download web animations for faster development in normal language.
 
 THE OUTLINE
-Introduction
-Why anim8
-Before you continue:
-How this documentation is arranged 
-Anim8 case
-Tutorials
-Installation and getting started 
-Usage:
-In class lists
-With JS-adding to class list
-Utility functions 
-How to guide's
-Changing defaults 
-Technical reference
-Our complete list of animation classes
-How it all works
-Important to note 
-Best Practices
+- Introduction
+- Why anim8
+- Before you continue:
+    - How this documentation is arranged 
+    - Anim8 case
+- Tutorials
+    - Installation and getting started 
+    - Usage:
+        - In class lists
+        - With JS-adding to class list
+    - Utility functions 
+- How to guide's
+    - Changing defaults 
+- Technical reference
+    - Our complete list of animation classes
+- How it all works
+- Important to note 
+- Best Practices
 
 
 
@@ -38,13 +38,13 @@ Best Practices
 # INTRODUCTION
 	
 ## WHY  “Anim8”
-	With anim8 you simply have the best at your fingertips with just a few words added to your class list - perfect for beginners, and those who simply want to do simple animations at break record timings. To name a few more:
+With anim8 you simply have the best at your fingertips with just a few words added to your class list - perfect for beginners, and those who simply want to do simple animations at break record timings. To name a few more:
 Anim8 can be used as a cross-browser animation library in your online projects. Excellent for leading hints, home pages, sliders, and emphasis. They are compact files that function on desktops and can be resized without losing quality.
 One of the many methods to utilize Anim8 is to copy and paste the effect into your own CSS or to reference the stylesheet. Then, simply add the effect's class name to the element you want it to be applied to.
 It has a very modest file size.
 Use your favourite tools without jumping through endless hoops to ensure compatibility. Anim8 "just works". We worry about compatibility so that you don’t need to. Another headache is solved. 
 Exposes animation elements and parameters to use as targeting elements to add interactivity and manipulate at run-time.
- Read on to find out more.
+Read on to find out more.
 
 
 # THE ANIM8 CASE
@@ -143,49 +143,36 @@ You can also change some of the settings that come with the specific animations 
 To change the speed of animation you can add any of this to the class list, don't forget to put your space in between!
 
 
-classes
-How fast they go
--_slow
-    -2 seconds
--_slower
-    -4 seconds
--_fast
-    -800 milliseconds
--_faster
-    -400 milliseconds
+|classes|How fast they go|
+|-------|:--------------:|
+|_slow  |2 seconds       |
+|_slower|4 seconds       |
+|_fast  |800 milliseconds|
+|_faster|400 milliseconds|
 
 
 
 ### DELAY
-	What if you wanted to make the animation wait a bit before it starts - anim8 comes with some interesting stuff.
+What if you wanted to make the animation wait a bit before it starts - anim8 comes with some interesting stuff.
 
 
-classes
-Delay times
--_delay-2s
-    -2 seconds
--_delay-3s
-    -3 seconds
--_delay-4s
-    -4 seconds
--_delay-5s
-    -5 seconds
+|classes|Delay times  |
+|--------|:----------:|
+|_delay-2s|2 seconds  |
+|_delay-3s|3 seconds  |
+|_delay-4s|4 seconds  |
+|_delay-5s|5 seconds  |
 
 
 ### REPEAT
-	Or if you're feeling ‘geeky’  you can call it the iteration count. Now, what does anim8 come with?
+Or if you're feeling ‘geeky’  you can call it the iteration count. Now, what does anim8 come with?
 
-classes
-Number of repetitions
--_repeat-1
-    -once
-- _repeat-2
-    -twice
--_repeat-3
-    -thrice
--_repeat-infinite
-    -…………Infinity
-
+| classes |Number of repetitions |
+|---------|:--------------------:|
+|_repeat-1|once                  |
+|_repeat-2|twice                 |
+|_repeat-3|thrice                |
+|_repeat-infinite|…………Infinity   |
 
 Now thats that but then, we know there can be no standards for these utility functions, we know your creativity is boundless, so anim8 can do more bounce to  the How To Guides for more.
 
